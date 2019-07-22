@@ -40,6 +40,6 @@ def using_flatten(array)
   array.flatten
 end
 
-def using_delete(instructors,"Steven")
-  no_offense_steven = instructors.delete("Steven")
+def using_delete(instructors,string)
+  no_offense_steven = instructors.delete(string)
 end
