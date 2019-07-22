@@ -45,5 +45,6 @@ def using_delete(instructors,string)
 end
 
 def using_delete_at(array, integer)
+  
   deleted_robot = array.delete(integer)
 end
