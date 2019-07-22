@@ -46,5 +46,5 @@ end
 
 def using_delete_at(array, integer)
   
-  deleted_robot = array.delete(integer)
+  deleted_robot == array.delete(integer)
 end
